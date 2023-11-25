@@ -48,6 +48,11 @@ nav ul li{
 
 nav ul li a{
     color: #acacac;
+    transition: all 0.5s ease-in;
+}
+
+nav ul li a:hover{
+    color: #29cdb3;
 }
 
 nav ul li .about{
@@ -103,6 +108,7 @@ main .section1 .part-two {
     grid-template-columns: repeat(3, 320px);
     justify-content: center;
     justify-items: center;
+    margin-bottom: 50px;
 }
 
 main .section1 .part-two .item{
@@ -158,9 +164,41 @@ main .section1 .part-two .item .bottom select option{
     color: #1b2734;
 }
 
-main .section2{
-    
+main .section1 .part-three{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
 }
+
+main .section1 .part-three .gauche{
+    width: 40%;
+    padding-left: 18%;
+}
+
+main .section1 .part-three .gauche p{
+    font-size: 1.5em;
+    line-height: 1.4em;
+    font-weight: 100;
+    color: #29cdb3;
+}
+
+main .section1 .part-three .droite{
+    width: 55%;
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    align-items: center;
+} 
+
+main .section1 .part-three .droite img{
+    display: none;
+    width: 100px;
+    height: 60px;
+}
+
+main .section2{
+    background-color: rgba(40, 204, 177, 0.15)
+}
+
 
 footer{
     text-align: center;
