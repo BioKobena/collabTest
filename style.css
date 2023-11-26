@@ -153,11 +153,20 @@ main .section1 .part-two .item .top p{
 main .section1 .part-two .item .bottom select{
     background: none;
     color: #fff;
-    width: 235px;
+    width: 160px;
     margin-top: 20px;
     font-size: 1.2em;
     text-decoration: underline;
+    cursor: pointer;
     border: none;
+}
+
+main .section1 .part-two .item .bottom .dernier{
+    width: 230px;
+}
+
+main .section1 .part-two .item .bottom .avant-dernier{
+    width: 175px;
 }
 
 main .section1 .part-two .item .bottom select option{
@@ -190,7 +199,7 @@ main .section1 .part-three .droite{
 } 
 
 main .section1 .part-three .droite img{
-
+    display: none;
     width: 100px;
     height: 60px;
 }
@@ -264,10 +273,18 @@ main .section2 .right .div h3{
     margin-bottom: 20px;
 }
 
+main .section2 .right .div p{
+    color: #7c7c7c;
+}
+
 main .section2 .right .div img{
     width: 50px;
     margin-bottom: 20px;
     height: 50px;
+}
+
+main .section3{
+    text-align: center;
 }
 
 footer{
