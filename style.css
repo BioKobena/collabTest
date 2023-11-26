@@ -26,10 +26,15 @@ nav{
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
+    transition: all 0.5s ease;
     position: fixed;
     margin-bottom: 40px;
     background: white;
     z-index: 1000;
+}
+
+.essai span{
+    margin-left: 24px;
 }
 
 nav img{
@@ -91,12 +96,13 @@ nav ul .department:hover ul li{
 nav ul .department:hover ul li:hover{
     color: #28ccb1;
     background-color: #28ccb119;
+    cursor: pointer;
 }
 
 main{
     display: flex;
     flex-direction: column;
-    padding-top: 80px;
+    margin-top: 7%;
 }
 
 main .section1{
