@@ -93,7 +93,7 @@ main .section1 .part-one h1{
 
 main .section1 .part-one div{
     display: flex;
-    width: 80vw;
+    width: 70vw;
     justify-content: space-evenly;
 }
 
@@ -190,15 +190,85 @@ main .section1 .part-three .droite{
 } 
 
 main .section1 .part-three .droite img{
-    display: none;
+
     width: 100px;
     height: 60px;
 }
 
 main .section2{
-    background-color: rgba(40, 204, 177, 0.15)
+    background-color: #28ccb126;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 50px;
 }
 
+main .section2 .left{
+    width: 50%;
+    padding-left: 20px;
+}
+
+main .section2 .left h2, main .section2 .left p{
+    padding-left: 30%;
+}
+
+main .section2 .left h2{
+    font-size: 1.8em;
+    line-height: 40px;
+    margin-bottom: 30px;
+    margin-top: 55px;
+}
+
+main .section2 .left p{
+    color: #7c7c7c;
+    font-size: 0.95em;
+    line-height: 1.4em;
+    margin-bottom: 70px;
+}
+
+main .section2 .left img{
+    margin-left: 100px;
+}
+
+main .section2 .right{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 32%);
+    grid-template-rows: repeat(2, 39%);
+}
+
+main .section2 .right .div{
+    background-color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    height: 270px;
+    width: 230px;
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .section2 .right .nombre1, .nombre3{
+    margin-top: 22px;
+}
+
+main .section2 .right .div h3{
+    font-size: 1.7em;
+    font-weight: 100;
+    line-height: 1.2em;
+    color: #28ccb1;
+    margin-bottom: 20px;
+}
+
+main .section2 .right .div img{
+    width: 50px;
+    margin-bottom: 20px;
+    height: 50px;
+}
 
 footer{
     text-align: center;
